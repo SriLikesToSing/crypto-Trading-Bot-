@@ -12,20 +12,6 @@ print(randomGenerator.generateNumber(0, 10, 100, 1))
 print("successful")
 
 
-'''
-current problems:
-    - ads
-        - add an add blocker **CHECK
-    - add input**CHECK
-
-    TODO:
-        - add arduino interfacing
-            - pyserial?
-
-        - find out what way you will be harmed
-            - thing at the back of my head that punches the side of my face.
-'''
-
 class lavaLampTrader():
 
     def __init__(self):
@@ -141,9 +127,8 @@ class lavaLampTrader():
         newPrice = self.returnPrice(driver)
 
         if self.totalPrice-newPrice < 0:
-           print("YOUR BROKE LOLLL")
+           print("failure")
         else:
-            print("you got extremely lucky, and you will never see similar success again")
             return
 
         self.totalPrice = self.newPrice
@@ -166,7 +151,6 @@ class lavaLampTrader():
             break
 
             if endItAll:
-                print("THANKS FOR DESTROYING YOUR SOCIOECONOMIC STATUS YOU DUMB FUCK!")
                 self.saveN(self.n)
                 driver.close()
                 return
