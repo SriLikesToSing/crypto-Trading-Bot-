@@ -7,6 +7,8 @@ from threading import Timer
 import time
 import randomGenerator
 
+#enstead of using a random generator you can use your own traiding strategy. This is a general purpose framework
+# and foundation for a capable trading bot.
 
 print(randomGenerator.generateNumber(0, 10, 100, 1))
 print("successful")
