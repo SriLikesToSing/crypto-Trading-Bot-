@@ -1,1 +1,1 @@
-# Python Crypto Trading Bot
+# Crypto Trading Bot Software
